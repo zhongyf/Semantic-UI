@@ -1,15 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Document</title>
-        <link href="http://cdn.bootcss.com/semantic-ui/2.2.4/semantic.min.css" rel="stylesheet">
-        <link href="base.css" rel="stylesheet">
-    </head>
-    <body>
-        
-    </body>
-    <script src="http://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
-    <script src="http://cdn.bootcss.com/semantic-ui/2.2.4/semantic.min.js"></script>
-    <script src="comm.js"></script>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Button</title>
+	<link href="http://cdn.bootcss.com/semantic-ui/2.2.4/semantic.min.css" rel="stylesheet">
+    <link href="./base.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="semantic item">
+		<a class="title" href="http://semantic-ui.com/elements/button.html">Button</a>
+	</div>
+	<div class="semantic item">
+		<div class="title">Size</div>
+		<button class="ui tiny button" tabindex="0">Tiny</button>
+		<button class="ui mini button" tabindex="0">Mini</button>
+		<button class="ui small button" tabindex="0">Small</button>
+		<button class="ui medium button" tabindex="0">Medium</button>
+		<button class="ui large button" tabindex="0">Large</button>
+		<button class="ui big button" tabindex="0">Big</button>
+		<button class="ui huge button" tabindex="0">Huge</button>
+		<button class="ui massive button" tabindex="0">Massive</button>
+	</div>
+
+	<div class="semantic item">
+		<div class="title">Color</div>
+		<button class="ui red button">Red</button>
+		<button class="ui orange button">Orange</button>
+		<button class="ui yellow button">Yellow</button>
+		<button class="ui olive button">Olive</button>
+		<button class="ui green button">Green</button>
+		<button class="ui teal button">Teal</button>
+		<button class="ui blue button">Blue</button>
+		<button class="ui violet button">Violet</button>
+		<button class="ui purple button">Purple</button>
+		<button class="ui pink button">Pink</button>
+		<button class="ui brown button">Brown</button>
+		<button class="ui grey button">Grey</button>
+		<button class="ui black button">Black</button>
+	</div>
+
+	<div class="semantic item">
+		<div class="title">Emphasis</div>
+		<button class="ui primary button">Primary</button>
+		<button class="ui secondary button">Secondary</button>
+		<button class="ui positive button">Positive</button>
+		<button class="ui negative button">Negative</button>
+		<button class="ui disabled button">Disabled</button>
+	</div>
+
+	<div class="semantic item">
+		<div class="title">Special</div>
+		<button class="ui inverted button" tabindex="0">Inverted</button>
+		<button class="ui labeled button" tabindex="0">Labeled</button>
+		<button class="ui basic button" tabindex="0">Basic</button>
+		<button class="ui loading button" tabindex="0">Loading</button>
+		<button class="ui active button" tabindex="0">Active</button>
+	</div>
+
+	<div class="semantic item">
+		<div class="title">Combination</div>
+		<div class="ui button" tabindex="0">
+			<i class="shop icon"></i> Shop Icon
+		</div>
+		<button class="ui compact labeled icon button">
+            <i class="pause icon"></i> Pause
+        </button>
+		<button class="ui circular icon button">
+          <i class="icon settings"></i>
+        </button>
+		<div class="ui labeled button" tabindex="0">
+			<div class="ui button">
+				<i class="heart icon"></i> Like
+			</div>
+			<a class="ui basic label">Heart Icon</a>
+		</div>
+		<div class="ui left labeled button" tabindex="0">
+			<a class="ui basic right pointing label">Right Pointing</a>
+			<div class="ui button">
+				<i class="heart icon"></i> Like
+			</div>
+		</div>
+	</div>
+
+	<div class="semantic item">
+		<div class="title">Animated</div>
+		<div class="ui animated button" tabindex="0">
+			<div class="visible content">Next</div>
+			<div class="hidden content">
+				<i class="right arrow icon"></i>
+			</div>
+		</div>
+		<div class="ui vertical animated button" tabindex="0">
+			<div class="hidden content">Shop</div>
+			<div class="visible content">
+				<i class="shop icon"></i>
+			</div>
+		</div>
+		<div class="ui animated fade button" tabindex="0">
+			<div class="visible content">Visible</div>
+			<div class="hidden content">Hidden</div>
+		</div>
+	</div>
+
+	<div class="semantic item">
+		<div class="title">Floated</div>
+		<button class="ui right floated button">Right Floated</button>
+		<button class="ui left floated button">Left Floated</button>
+		<duv class="clear"></div>
+	</div>
+
+	<div class="semantic item">
+		<div class="title">Fluid</div>
+		<button class="ui fluid button">Fluid</button>
+	</div>
+
+	<div class="semantic item">
+		<div class="title">Toggle</div>
+		<button class="ui toggle button active">Toggle</button>
+	</div>
+
+	<div class="semantic item">
+		<div class="title">Vertically Attached</div>
+		<div class="ui top attached button" tabindex="0">Top</div>
+		<div class="ui attached segment">
+			<p>content</p>
+		</div>
+		<div class="ui bottom attached button" tabindex="0">Bottom</div>
+	</div>
+
+	<div class="semantic item">
+		<div class="ui two top attached buttons">
+			<div class="ui button">One</div>
+			<div class="ui button">Two</div>
+		</div>
+		<div class="ui attached segment">
+			<p>content</p>
+		</div>
+		<div class="ui two bottom attached buttons">
+			<div class="ui button">One</div>
+			<div class="ui button">Two</div>
+		</div>
+	</div>
+
+	<div class="semantic item">
+		<div class="title">Horizontally Attached</div>
+        <button class="ui left attached button">Left</button>
+        <button class="ui right attached button">Right</button>
+    </div>
+
+	<div class="semantic item">
+		<div class="title">Vertical Buttons</div>
+		<div class="ui vertical buttons">
+			<button class="ui button">One</button>
+			<button class="ui button">Two</button>
+			<button class="ui button">Three</button>
+			<button class="ui button">Four</button>
+		</div>
+	</div>
+</body>
+<script src="http://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/semantic-ui/2.2.4/semantic.min.js"></script>
+
 </html>

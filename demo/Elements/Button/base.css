@@ -1,0 +1,14 @@
+.semantic.item {
+    margin: 5px;
+}
+
+.semantic.item > .title{
+    border-left: 3px solid #333;
+    padding-left: 5px;
+    margin: 5px;
+}
+
+.clear{
+    clear: both;
+    display: flex
+}
